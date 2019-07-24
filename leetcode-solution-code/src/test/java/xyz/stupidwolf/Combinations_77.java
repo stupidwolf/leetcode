@@ -19,7 +19,7 @@ public class Combinations_77 {
     }
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new LinkedList<>();
-        backTrace(res, 1, n - k + 1, new ArrayList<>(k), k);
+        backTrace(res, 1, n - k + 1, new ArrayList<Integer>(k), k);
         return res;
     }
 

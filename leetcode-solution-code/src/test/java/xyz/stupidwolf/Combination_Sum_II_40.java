@@ -25,7 +25,7 @@ public class Combination_Sum_II_40 {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> res = new LinkedList<>();
         Arrays.sort(candidates);
-        backTrace(res, new LinkedList<>(), candidates, 0, target);
+        backTrace(res, new LinkedList<Integer>(), candidates, 0, target);
         return res;
     }
 
